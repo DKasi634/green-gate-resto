@@ -9,7 +9,7 @@ const Delivery = () => {
                         <div className="left flex flex-col justify-start text-left gap-3">
                             <h2 className="text-3xl font-semibold">Where we deliver</h2>
                             <p className="text-sm font-normal mb-6">See if we're delivering to you right now ! Use the search engine by entering the postal code of your locality and see if we can deliver your order there. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum odio reprehenderit, tempora optio sit nisi.</p>
-                            <form className="calculator_form flex flex-col justify-start gap-6" >
+                            <form className="form flex flex-col justify-start gap-6" >
                                 <div className="form_fields">
                                     <div className="left flex flex-col gap-4">
                                         <div className="form_group">

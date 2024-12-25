@@ -339,7 +339,7 @@ section, footer{
 
   /* CALORIES CALCULATOR PAGE */
 
-  .calculator_form{
+  .form{
 
     & .form_fields{
       display: grid;
@@ -405,5 +405,15 @@ footer{
     display: none;
   }
 }
+
+@media screen and (max-width:880px){
+  .form {
+    & .form_fields{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }}
+}
+
 
 

@@ -8,7 +8,7 @@ const Calculator = () => {
             <div className="container grid sm:grid-cols-1 lg:grid-cols-2 justify-start items-center gap-10">
                 <aside className="left">
                     <h3 className="text-4xl font-semibold testimonials_title text-left my-4 mb-8">Calorie Calculator</h3>
-                    <div className="menu_tags flex items-center justify-start gap-2 mb-6"> 
+                    <div className="menu_tags flex flex-wrap items-center justify-start gap-2 mb-6"> 
                         <span className="tag_span tag_md active">Calculator TMR</span> 
                         <span className="tag_span tag_md">Calculator BMI</span> 
                         <span className="tag_span tag_md">Calculator PPM</span> 
@@ -21,7 +21,7 @@ const Calculator = () => {
                             <div className="flex items-center justify-start gap-2 text-3xl"> <LuTriangle className="text-pink-500" /> <span className="text-sm font-semibold"> Woman </span> </div>
                             <div className="flex items-center justify-start gap-2 text-3xl"> <LuRectangleVertical className="text-blue-500" /> <span className="text-sm font-semibold"> Man </span> </div>
                         </div>
-                        <form className="calculator_form flex flex-col justify-start gap-6" >
+                        <form className="form flex flex-col justify-start gap-6" >
                             <div className="form_fields">
                                 <div className="left flex flex-col gap-4">
                                     <div className="form_group">
@@ -54,8 +54,8 @@ const Calculator = () => {
                     <div className="cta_card flex flex-col justify-center text-center rounded-3xl p-12 bg-gray-200">
                         <h3 className="text-4xl font-semibold testimonials_title text-center my-4">Calorie Calculator</h3>
                         <p className="text-sm font-normal px-4">Take advantage of the free advice of a nutritionist and choose the perfect kit for yourself</p>
-                        <div className="flex items-center justify-between px-10 text-sm text-left gap-1 my-2 mt-8">
-                            <div className="flex flex-col justify-start ">
+                        <div className="flex items-center justify-between px-10 text-sm text-left gap-4 my-2 mt-8 flex-wrap">
+                            <div className="flex flex-col justify-start">
                                 <p>Phone:</p>
                                 <p className="font-semibold">+1 (213) 706 4725</p>
                             </div>
