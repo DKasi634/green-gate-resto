@@ -76,7 +76,7 @@ const Home = () => {
                 </div>
             </section>
             <section className="testimonials mt-24">
-                <div className="container testimonials__container grid grid-cols-2 gap-4">
+                <div className="container testimonials__container grid sm:grid-cols-1 lg:grid-cols-2 gap-4">
                     <aside className="left">
                         <h2 className="text-4xl font-semibold testimonials_title text-left my-4">We cook - they enjoy every minute of their <span className="testimonials_title_arrow" > <LiaLongArrowAltRightSolid /> </span>  lives</h2>
                         <div className="flex flex-col justify-start text-left gap-4">
@@ -92,7 +92,7 @@ const Home = () => {
                         </div>
                     </aside>
                     <aside className="right">
-                        <div className="ratings_container grid grid-cols-2 gap-y-4 gap-x-6">
+                        <div className="ratings_container grid sm:grid-cols-1 md:grid-cols-2 gap-y-4 gap-x-6">
                             {ratings.map(({ userName, note, content }, index) => (
                                 <Rating key={index} userName={userName} note={note} content={content} />
                             )
