@@ -14,10 +14,9 @@ const Footer = () => {
                     <div className="logo">
                         <img src={Logo} className='w-full h-full' alt="" />
                     </div>
-                    <ul key={"footer_links_key"} className="footer__links flex items-center justify-center gap-8">
+                    <ul key={"footer_links_key"} className="footer__links flex flex-col md:flex-row items-center justify-center gap-4 md:gap-8">
                         { routes.map(({name, path}, index) =>
                          { if(name.trim().toLowerCase() !== "home"){
-                            console.log("Index :", index)
                             return <li> <NavLink key={name} to={path} className="text-sm">{name}</NavLink></li> 
                         }})
                         }
