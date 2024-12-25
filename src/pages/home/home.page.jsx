@@ -58,7 +58,7 @@ const Home = () => {
                 </div>
                 <div className="container hero__container">
                     <div className="hero_center flex flex-col items-center justify-center gap-4">
-                        <h2 className="hero_title sm:text-4xl lg:text-5xl mb-10">Premium quality diets for a unique taste </h2>
+                        <h2 className="hero_title font-semibold text-4xl lg:text-6xl mb-10">Premium quality diets for a unique taste </h2>
                         <p className="text-sm text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. At maxime laudantium ea blanditiis culpa consectetur veritatis ipsa facilis ullam tempore!</p>
                         <div className="hero_btns flex items-center justify-center gap-4">
                             <button className="btn_dark">Adjust diet</button>
@@ -127,7 +127,7 @@ const Home = () => {
             <section className="faqs">
                 <div className="container faqs__container">
                     <h2 className="text-3xl font-semibold text-left my-8" >Frequently Asked Questions</h2>
-                    <div className="faqs_box">
+                    <div className="faqs_box grid sm:grid-cols-1 md:grid-cols-2 gap-4">
                         { faqs.map(({answer, question}, index) =>(  <Faq key={index} answer={answer} question={question} /> ) ) }
                     </div> 
                 </div>

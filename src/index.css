@@ -262,12 +262,7 @@ section, footer{
 }
 
   /* FAQS  */
-  .faqs_box{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-    row-gap: 1rem;
-    column-gap: 1rem;
-  }
+
   .faq{
     box-shadow: 0 0.1rem 0.2rem rgba(17, 17, 18, 0.2);
   }
