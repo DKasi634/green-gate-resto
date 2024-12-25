@@ -7,7 +7,7 @@ const Calculator = () => {
         <section className="mb-40" >
             <div className="container grid sm:grid-cols-1 lg:grid-cols-2 justify-start items-center gap-10">
                 <aside className="left">
-                    <h3 className="text-4xl font-semibold testimonials_title text-left my-4 mb-8">Calorie Calculator</h3>
+                    <h3 className="text-3xl md:text-4xl font-semibold testimonials_title text-left my-4 mb-8">Calorie Calculator</h3>
                     <div className="menu_tags flex flex-wrap items-center justify-start gap-2 mb-6"> 
                         <span className="tag_span tag_md active">Calculator TMR</span> 
                         <span className="tag_span tag_md">Calculator BMI</span> 
@@ -52,7 +52,7 @@ const Calculator = () => {
                 </aside>
                 <aside className="right">
                     <div className="cta_card flex flex-col justify-center text-center rounded-3xl p-12 bg-gray-200">
-                        <h3 className="text-4xl font-semibold testimonials_title text-center my-4">Calorie Calculator</h3>
+                        <h3 className="text-3xl md:text-4x font-semibold testimonials_title text-center my-4">Calorie Calculator</h3>
                         <p className="text-sm font-normal px-4">Take advantage of the free advice of a nutritionist and choose the perfect kit for yourself</p>
                         <div className="flex items-center justify-between px-10 text-sm text-left gap-4 my-2 mt-8 flex-wrap">
                             <div className="flex flex-col justify-start">
