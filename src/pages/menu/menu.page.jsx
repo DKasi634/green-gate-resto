@@ -110,7 +110,7 @@ const Menu = () => {
         <section className="menus_section mb-40" >
             <div className="container menus__container">
                 <h3 className="text-4xl font-semibold testimonials_title text-left my-4 mb-8">Menu</h3>
-                <div className="menu_tags flex items-center justify-start gap-2 mb-6"> 
+                <div className="menu_tags flex items-center justify-start gap-2 mb-6 flex-wrap"> 
                     <span className="tag_span tag_md active">Top rated</span> 
                     <span className="tag_span tag_md">Breakfast</span> 
                     <span className="tag_span tag_md">Lunch</span> 

@@ -22,6 +22,8 @@
 
 }
 
+
+
 *, *::before, *::after{
   padding: 0;
   margin: 0;
@@ -392,6 +394,9 @@ footer{
   
 
 @media screen and (max-width:1024px){
+  ::-webkit-scrollbar{
+    width: 0;
+  }
   .footer_top{
     flex-direction: column;
     justify-content: start;
@@ -406,7 +411,8 @@ footer{
   }
 }
 
-@media screen and (max-width:880px){
+@media screen and (max-width:680px){
+  
   .form {
     & .form_fields{
     display: grid;
