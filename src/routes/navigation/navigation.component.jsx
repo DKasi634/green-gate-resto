@@ -32,7 +32,7 @@ const Navigation = () => {
 
             <ul className="nav_sm sm:flex lg:hidden items-center justify-center gap-8">
                 {routes.map(({ name, path, icon }, index) => 
-                    (<li className='h-fit w-fit flex items-center justify-center'> <NavLink key={index} to={path} className="text-2xl">{icon}</NavLink></li>)
+                    (<li className='link_sm h-fit w-fit flex items-center justify-center'> <NavLink key={index} to={path} className={`${(isActive) => isActive? "active":""} text-2xl`}>{icon}</NavLink></li>)
                 )}
             </ul>
 

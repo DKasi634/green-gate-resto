@@ -63,7 +63,11 @@
 
   & li{
     height: fit-content;
-    padding-block: 0.5rem;
+  }
+  & a.active{
+    padding: 0.5rem;
+    border-radius: 50%;
+    background-color: var(--color-green-variant);
   }
  }
 
@@ -75,5 +79,6 @@
     display: flex;
     align-items: center;
     flex-direction: row;
+    
   }
 }
