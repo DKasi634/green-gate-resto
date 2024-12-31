@@ -1,4 +1,4 @@
-import { TbBrandFacebook, TbBrandLinkedin, TbBrandX } from "react-icons/tb"
+import { TbBrandInstagramFilled, TbBrandLinkedin, TbBrandWhatsappFilled } from "react-icons/tb"
 import Logo from "../../assets/images/Logo.png"
 import { NavLink } from "react-router-dom"
 import React from "react"
@@ -28,12 +28,14 @@ const Footer = () => {
             
             </div>
             <ul className="socials flex items-center justify-center w-fit mx-auto gap-4">
-                <li className="text-xl"><TbBrandFacebook /></li>
-                <li className="text-xl"><TbBrandLinkedin /></li>
-                <li className="text-xl"><TbBrandX /></li>
+                <li className="text-xl"> 
+                    <a href="https://www.instagram.com/dkasi634/profilecard/?igsh=d3gwc2c1Y3pweG5x" target="_blank" rel="noopener noreferrer"><TbBrandInstagramFilled /></a>
+                 </li>
+                <li className="text-xl"><a href="https://www.linkedin.com/in/daniel-kasi-32093b228?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noreferrer noopener"><TbBrandLinkedin /> </a></li>
+                <li className="text-xl"><a href="https://wa.me/+243975623008" target="_blank" rel="noreferrer noopener"><TbBrandWhatsappFilled/></a></li>
             </ul>
 
-            <p className="text-white text-sm mb-2 text-center py-4"> &copy; Copyright {new Date().getFullYear()} All rights reserved </p>
+            <p className="text-white text-sm mb-2 text-center py-4"> {new Date().getFullYear()} Dan Kasi &copy; All rights reserved </p>
         </div>
     </footer>
   )
